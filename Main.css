@@ -1,0 +1,63 @@
+:root {
+    body {
+        background-color: var(--secondary);
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .header {
+        font-size: 3.5vh;
+        margin-left: 6vw;
+        margin-right: 6vw;
+    }
+
+    .lefttext {
+        font-size: 3vh;
+        height: calc(3vh);
+        margin-left: 12vw;
+    }
+
+    .centertext {
+        font-size: 3vh;
+        height: calc(3vh);
+    }
+
+    .righttext {
+        font-size: 3vh;
+        height: calc(3vh);
+        margin-right: 6vw;
+    }
+
+    .title {
+        color: var(--secondary);
+        text-align: left;
+        align-items: center;
+        margin-left: 1.5vw;
+        font-size: calc(1.8vh + 2.3vw);
+        margin-right: 1.5vw;
+    }
+
+    .titleline {
+        background-color: var(--primary);
+        margin: 0px;
+        padding: 10px 0;
+        align-items: center;
+        height: 10.5vh;
+        display: flex;
+    }
+
+    .button {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        margin-right: 2vw;
+        align-items: center;
+        background: var(--tertiary);
+        font-size: calc(1.2vh + 1.2vw);
+        outline: 0px;
+        outline-color: var(--tertiary);
+    }
+
+    .chslogo {
+        height: calc(5vh + 4vw);
+    }
+}

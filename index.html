@@ -2,75 +2,30 @@
 
 <head>
     <link rel="stylesheet" href="Colors.css">
+    <link rel="stylesheet" href="Main.css">
 
-    <style>
-        body {
-            background-color: var(--secondary);
-            padding: 0px;
-            margin: 0px;
-            font-size: 2vh;
-        }
-
-        .title {
-            color: var(--secondary);
-            text-align: left;
-            align-items: center;
-            margin-left: 1.5vw;
-            font-size: calc(2.3vh + 0.7vw);
-            margin-right: 1.5vw;
-        }
-
-        .titleline {
-            background-color: var(--primary);
-            margin: 0px;
-            padding: 10px 0;
-            align-items: center;
-            height: 7vh;
-            display: flex;
-        }
-
-        .button {
-            margin-top: 2vh;
-            margin-bottom: 2vh;
-            margin-right: 2vw;
-            align-items: center;
-            background: var(--tertiary);
-            font-size: calc(1.6vh + 0.6vw);
-            outline: 0px;
-            outline-color: var(--tertiary);
-        }
-
-        .logo {
-            height: calc(4.5vh + 2vw);
-        }
-
-        p {
-            font-size: 13px;
-        }
-
-    </style>
+    <style></style>
 </head>
 
 <body>
     <div class="titleline">
-        <img class="logo" src="chslogo.png">
+        <img class="chslogo" src="chslogo.png">
         <h1 class="title">Cedarcrest Chess Team</h1>
         <button onclick="window.location.href='index.html'" class="button" style="display: block; margin-left: auto;">Home</button>
         <button onclick="window.location.href='Calendar.html'" class="button">Calendar</button>
         <button onclick="window.location.href='Support.html'" class="button">Support</button>
         <button onclick="window.location.href='Team.html'" class="button">Team</button>
     </div>
-    <h2>Who are we:</h2>
-    <p>We are a high school chess team based out of Cedarcrest High School in Duvall, Washington. Founded in 2025, we
+    <h3 class="header">Who are we:</h3>
+    <p class="text">We are a high school chess team based out of Cedarcrest High School in Duvall, Washington. Founded in 2025, we
         are a team of 10 members of varying skill levels dedicated to serving Cedarcrest High School and the
         community as well as promoting the learning of and broader participation in the game of chess.</p>
-    <h2>Links:</h2>
-    <a href="https://www.chess.com/club/cedarcrest-high-school-chess-team">Chess.com club</a>
+    <h3 class="header">Links:</h3>
+    <img class="lefttext" src="chesscomlogo.png">
+    <a class="righttext" href="https://www.chess.com/club/cedarcrest-high-school-chess-team">Chess.com club</a>
     <br>
-    <a href="https://lichess.org/team/cedarcrest-high-school-chess-team">Lichess club</a>
-    <h2>Contact:</h2>
-    <p>cedarcrestchess@gmail.com</p>
-    <script>
-
-    </script>
+    <a class="lefttext" href="https://lichess.org/team/cedarcrest-high-school-chess-team">Lichess club</a>
+    <h3 class="header">Contact:</h3>
+    <p class="lefttext">cedarcrestchess@gmail.com</p>
+    <script></script>
 </body>
