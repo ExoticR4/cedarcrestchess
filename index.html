@@ -8,14 +8,16 @@
             background-color: var(--secondary);
             padding: 0px;
             margin: 0px;
+            font-size: 1.2vw;
         }
 
         .title {
             color: var(--secondary);
             text-align: left;
-            margin-left: 20px;
-            margin-right: 30px;
-            margin-top: 50px;
+            align-items: center;
+            margin-left: 1.5vw;
+            font-size: 3.5vh;
+            margin-right: 1.5vw;
         }
 
         .titleline {
@@ -26,19 +28,23 @@
         }
 
         .button {
-            margin-top: 60px;
-            margin-bottom: 60px;
-            margin-left: 20px;
+            margin-top: 2vh;
+            margin-bottom: 2vh;
+            margin-right: 2vw;
+            align-items: center;
             background: var(--tertiary);
-            font-size: 20px;
+            font-size: 2.5vh;
             outline: 0px;
             outline-color: var(--tertiary);
         }
 
         .logo {
-            width: 20%;
-            height: 20%;
-            margin-top: 0px;
+            height: 8vh;
+        }
+
+        .bodycontainer {
+            display: flex;
+            width: 50vw;
         }
     </style>
 </head>
@@ -47,26 +53,24 @@
     <div class="titleline">
         <img class="logo" src="chslogo.png">
         <h1 class="title">Cedarcrest Chess Team</h1>
-        <button
-            onclick="window.location.href='index.html'"
-            class="button">Home</button>
-        <button
-            onclick="window.location.href='Calendar.html'"
-            class="button">Calendar</button>
-        <button
-            onclick="window.location.href='Support.html'"
-            class="button">Support</button>
-        <button
-            onclick="window.location.href='Team.html'"
-            class="button">Team</button>
+        <button onclick="window.location.href='index.html'" class="button" style="display: block; margin-left: auto;">Home</button>
+        <button onclick="window.location.href='Calendar.html'" class="button">Calendar</button>
+        <button onclick="window.location.href='Support.html'" class="button">Support</button>
+        <button onclick="window.location.href='Team.html'" class="button">Team</button>
     </div>
-    <h2>Who are we:</h2>
-    <p>We are a high school chess team based out of Cedarcrest High School in Duvall, Washington. Founded in 2025, we are a team of 16 registered members of varying skill levels dedicated to serving Cedarcrest High School and the community as well as promoting the learning of and broader participation in the game of chess.</p>
-    <h2>Links:</h2>
-    <a href = "https://www.chess.com/club/cedarcrest-high-school-chess-team">Chess.com club</a>
+    <bodycontainer>
+    <h3>Who are we:</h3>
+    <p>We are a high school chess team based out of Cedarcrest High School in Duvall, Washington. Founded in 2025, we
+        are a team of 10 members of varying skill levels dedicated to serving Cedarcrest High School and the
+        community as well as promoting the learning of and broader participation in the game of chess.</p>
+    </bodycontainer>
+    <bodycontainer>
+    <h3>Links:</h3>
+    <a href="https://www.chess.com/club/cedarcrest-high-school-chess-team">Chess.com club</a>
     <br>
-    <a href = "https://lichess.org/team/cedarcrest-high-school-chess-team">Lichess club</a>
-    <h2>Contact:</h2>
+    <a href="https://lichess.org/team/cedarcrest-high-school-chess-team">Lichess club</a>
+    </bodycontainer>
+    <h3>Contact:</h3>
     <p>cedarcrestchess@gmail.com</p>
     <script>
 
